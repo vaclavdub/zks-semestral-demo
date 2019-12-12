@@ -20,5 +20,5 @@ jobs:
     - name: Build test
       run: mvn --file petclinic-selenium/pom.xml -DskipTests install
     - name: run test
-      run: mvn -Dtest=PetclinicTest --file petclinic-selenium/pom.xml -Dbrowser=chrome -Dheadless=false test
+      run: mvn -Dtest=PetclinicTest --file petclinic-selenium/pom.xml -Dbrowser=firefox -Dheadless=false test
 
